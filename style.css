@@ -5,9 +5,12 @@
   /* background-color: #f0f2f5; */
 }
 
+body {
+  background-color: #f0f2f5;
+}
 .container {
   display: flex;
-  background-color: #f0f2f5;
+  /* background-color: #f0f2f5; */
   width: 100%;
   height: 100%;
 }
@@ -35,7 +38,7 @@
   border: 0.1px solid black;
   border-radius: 10px;
   border: hidden;
-  box-shadow: 10px 10px 8px 10px #888888;
+  box-shadow: 5px 5px 2px 2px #888888;
 }
 form {
   background-color: white;
@@ -52,10 +55,10 @@ form {
   /* text-align: center; */
 }
 
-.email:focus {
+/* .email:focus {
   color: #0866ff;
   border: #0866ff;
-}
+} */
 
 .password {
   font-size: larger;
@@ -114,4 +117,8 @@ a {
   margin-top: 50px;
   margin-left: 25px;
   font-size: large;
+}
+
+.center {
+  padding-right: 5px;
 }
